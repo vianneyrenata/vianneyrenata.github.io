@@ -1,0 +1,370 @@
+body {
+    font-family: 'Hanken Grotesk';
+    background: #cce4cc;
+    color:#3b5542;
+    margin: 0;
+}
+
+.border-temp {
+    border: 0px dotted blue;
+}
+
+a {
+    color: inherit;
+}
+
+p {
+    margin: 2px 0px 0px 0px;
+}
+#pseudo-container {
+    display: flex;
+    justify-content: center;
+    margin: 100px 100px 20px 100px;
+    min-width: 480px;
+}
+#main-container {
+    max-width: 800px;
+}
+
+.span-highlight {
+        background-image: url("./assets/decorations/brushstroke2.svg");
+        background-position: 50% 50%;
+        padding: 0px;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+/* #header-profile {
+}
+
+#header-role {
+} */
+
+#typed-text {
+    color: rgb(130, 69, 9);
+    /*text-decoration: underline;*/
+    border-bottom: 2px solid rgb(130, 69, 9);
+}
+
+#header-contact {
+    display: block;
+    justify-content: center;
+    width: 100px;
+    margin-bottom: 0px;
+ 
+}
+
+#header-icons-contact {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-around;
+    padding: 0 0px 0 0px;
+}
+
+.img-icon {
+    width: 25px;
+
+}
+
+#content {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-items: center;
+}
+#content-desc {
+    flex: 1;
+    order: 2;
+    min-width: 300px;
+    max-width: 600px;
+    padding: 0 auto;
+    margin: 0 auto;
+
+}
+
+#img-photo {
+    order: 1;
+    margin: 0px auto;
+}
+#profile-pic {
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    border: 0px solid lightblue;
+    margin: 20px 0px 20px 20px;
+    object-fit: cover;
+}
+
+#project-details {
+    margin-top: 50px;
+    /*border-bottom: 5px solid rgb(200, 223, 231);*/
+}
+
+#project-text {
+    max-width: 800px;
+    background: #daebda;
+    min-height: 300px;
+    padding: 50px;
+    border-bottom: 5px solid  rgb(234, 206, 162);
+}
+
+.btn-project {
+    font-family: inherit;
+    color: inherit;
+    font-weight: light;
+    background: rgb(234, 206, 162);
+    border: 0px solid white;
+    padding: 5px 10px;
+}
+
+.btn-project:hover {
+    background: rgb(236, 184, 101);
+}
+
+.btn-project:focus, .btn-project:active {
+  background: rgb(236, 184, 101);
+  outline: none;
+  font-weight: bold;
+  -webkit-box-shadow: inset 0px 0px 5px rgb(172, 202, 212);
+      -moz-box-shadow: iinset 0px 0px 5px rgb(172, 202, 212);
+          box-shadow: inset 0px 0px 5px rgb(172, 202, 212);
+}
+
+.pub-conf-poster,
+.pub-conf-lecture,
+.pub-conf-workshop,
+.pub-conf-panel {
+    border-radius: 5px;
+    background: #e78ac3;
+    border: 1px solid #e78ac3;
+    padding: 1px 5px;
+    color: white;
+    font-size: 9px;
+    margin: -5px 5px;
+    text-transform: uppercase;
+}
+
+.pub-conf-lecture {
+    background: #66c2a5;
+    border: 1px solid #66c2a5;
+}
+
+.pub-conf-poster {
+    background: #8da0cb;
+    border: 1px solid #8da0cb;
+}
+
+.pub-conf-workshop {
+    background: #fc8d62;
+    border: 1px solid #fc8d62;
+}
+
+.pub-desc {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-style: italic;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.pub-title {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#footer {
+    display: flex;
+    align-items :center;
+    position: sticky;
+    justify-content: space-around;
+    color: lightslategray;
+    font-size: 12px;
+    bottom: 0;
+    padding: 5px;
+    margin-top: 100px;
+    width: 100%;
+    height: 30px;
+    background: white;
+}
+
+#polaris-img {
+    width: 256px;
+    height: 144px;
+    object-fit: cover;
+}
+
+#corne-img {
+    width: 256px;
+    height: 144px;
+    object-fit: cover;
+}
+/* fonts */
+
+/* Hanken Grotesk */
+
+.hanken-grotesk-thin {
+font-family: "Hanken Grotesk", sans-serif;
+font-weight: 100;
+font-style: normal;
+}
+  
+.hanken-grotesk-extralight {
+font-family: "Hanken Grotesk", sans-serif;
+font-weight: 200;
+font-style: normal;
+}
+
+.hanken-grotesk-light {
+font-family: "Hanken Grotesk", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+.hanken-grotesk-regular {
+font-family: "Hanken Grotesk", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.hanken-grotesk-medium {
+font-family: "Hanken Grotesk", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.hanken-grotesk-semibold {
+font-family: "Hanken Grotesk", sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+.hanken-grotesk-bold {
+font-family: "Hanken Grotesk", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.hanken-grotesk-extrabold {
+font-family: "Hanken Grotesk", sans-serif;
+font-weight: 800;
+font-style: normal;
+}
+
+.hanken-grotesk-black {
+font-family: "Hanken Grotesk", sans-serif;
+font-weight: 900;
+font-style: normal;
+}
+
+.hanken-grotesk-thin-italic {
+font-family: "Hanken Grotesk", sans-serif;
+font-weight: 100;
+font-style: italic;
+}
+
+.hanken-grotesk-extralight-italic {
+font-family: "Hanken Grotesk", sans-serif;
+font-weight: 200;
+font-style: italic;
+}
+
+.hanken-grotesk-light-italic {
+font-family: "Hanken Grotesk", sans-serif;
+font-weight: 300;
+font-style: italic;
+}
+
+.hanken-grotesk-regular-italic {
+font-family: "Hanken Grotesk", sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+
+.hanken-grotesk-medium-italic {
+font-family: "Hanken Grotesk", sans-serif;
+font-weight: 500;
+font-style: italic;
+}
+
+.hanken-grotesk-semibold-italic {
+font-family: "Hanken Grotesk", sans-serif;
+font-weight: 600;
+font-style: italic;
+}
+
+.hanken-grotesk-bold-italic {
+font-family: "Hanken Grotesk", sans-serif;
+font-weight: 700;
+font-style: italic;
+}
+
+.hanken-grotesk-extrabold-italic {
+font-family: "Hanken Grotesk", sans-serif;
+font-weight: 800;
+font-style: italic;
+}
+
+/* for mobile */
+
+/* Mobile styles for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    /* Container adjustments */
+    #pseudo-container {
+      margin: 20px;
+      min-width: initial;
+    }
+    
+    /* Header adjustments */
+    #header-name h1 {
+      font-size: 24px;
+    }
+    
+    /* Content layout changes to single column */
+    #content {
+      flex-direction: column;
+    }
+    
+    #content-desc {
+      order: 2;
+      min-width: 100%;
+      margin-top: 20px;
+    }
+    
+    #img-photo {
+      order: 1;
+      margin: 0 auto;
+    }
+    
+    #profile-pic {
+      width: 160px;
+      height: 200px;
+      margin: 10px 0;
+    }
+    
+    /* Project section adjustments */
+    #project-text {
+      padding: 30px 20px;
+      min-height: 200px;
+    }
+    
+    /* Button adjustments */
+    .btn-project {
+      padding: 3px 8px;
+      margin-bottom: 5px;
+      font-size: 12px;
+      letter-spacing: -0.4px;
+    }
+    
+    /* Footer adjustments */
+    #footer {
+      flex-direction: column;
+      height: auto;
+      padding: 10px 5px;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+  
+    }
+  }
