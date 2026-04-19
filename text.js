@@ -81,8 +81,6 @@ function constructPersonal() {
     // console.log("Personal");
     let text = `
     <div style="font-size: 15px">
-    <strong>I like to build personal tools for productivity.</strong> <br>
-    <p>Knowing that I lack the skills to find good article papers, I built a reference finder with Claude Code to source relevant academic articles based on a text. I built a database of articles' abstracts from reputable journals and use Retrieval-Augmented Generation (RAG) through ChromaDB vector databases in Python. This has helped me a lot to discover new and interesting articles! I learned how to deploy it online so other people can use it too. <a href="https://ref-finder.onrender.com">Here is the link.</a> Let me know if you did use it!</p> <br><br>
     <strong>I build mechanical keyboards and I am a 40% user!</strong> <br>
     <p>I really enjoy figuring out what is the best and optimal layout for my daily use.
     My daily driver is currently a Corne Zen-ish v3 with lowprokb's Sunset Tactile (40gf), and KLP Lame (Saddled) keycaps.
