@@ -1,13 +1,37 @@
-// text.js - Load data from conf-pub.json
+// text.js - Load data from jour-pub.json and conf-pub.json
 function constructAcad() {
     let title = ""
     let desc = ""
     let pubType = ""
-    // Fetch the JSON file and return its processed content
-    return fetch('./conf-pub.json')
-        .then(response => response.json())
-        .then(confData => {
-            let text = `<h4 style="margin-top: 0px">Conference Publications</h4>
+    // Fetch both JSON files and return the processed content
+    return Promise.all([
+        fetch('./jour-pub.json').then(response => response.json()),
+        fetch('./conf-pub.json').then(response => response.json())
+    ])
+        .then(([jourData, confData]) => {
+            let text = `<h4 style="margin-top: 0px">Journal Publications</h4>
+            <ul>`;
+
+            for (let i = 0; i < jourData.length; i++) {
+                if (jourData[i].doi) {
+                    title = `<a href=${jourData[i].doi} target="_blank">
+                    <span class="pub-title">
+                    ${jourData[i].title}
+                    </span>
+                    </a>`;
+                } else {
+                    title = `<span class="pub-title">
+                    ${jourData[i].title}
+                    </span>`;
+                }
+
+                desc = `<span class="pub-desc">${jourData[i].author} (${jourData[i].year}). <em>${jourData[i].journal}</em>.</span>`
+
+                text += ("<li>" + title + "<br>" + desc + "</li>")
+            }
+
+            text += `</ul>
+            <h4>Conference Publications</h4>
             <ul>`;
             
             for (let i = 0; i < confData.length; i++) {
