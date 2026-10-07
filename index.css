@@ -195,6 +195,10 @@ p {
     object-fit: cover;
 }
 
+#peapod-img {
+    width: 256px;
+    object-fit: cover;
+}
 #corne-img {
     width: 256px;
     height: 144px;
