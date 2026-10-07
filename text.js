@@ -78,14 +78,6 @@ function constructService() {
     <span style="font-size:13px"> University of Wisconsin–Madison, Madison, WI</span>
     <p>I am active in our student chapter! Let me know if you have any questions about activities in our campus.</p> 
     <br>
-    <strong>Human Factors Cast</strong> <br>
-    <span style="font-size:13px"></span>
-    <p><a href="https://www.humanfactorscast.media/", target="_blank">Listen to Human Factors Cast!</a>
-    I occasionally contribute to the production content.
-    You'll see me running around during the HFES Conference interviewing people and promoting our booth!
-    Say hi if you happen to see us :)
-    If you have any burning thoughts that you would like to share and would love to discuss it in the podcast, let us know!</p>
-    <br>
     <div style="border:0.5px solid rgb(122, 167, 120); width: 200px; border-radius:25%"></div>
     <br>
     <strong style="text-decoration: underline">Personal</strong><br>
