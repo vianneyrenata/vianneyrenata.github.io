@@ -113,14 +113,15 @@ function constructPersonal() {
     <br>
     <br>
     <strong>Graphic design is my <em>passion</em>.</strong>
-    <p>I do graphic design for fun. Most of my visual communication works are posted in the 
-    UW-Madison's HFES Student Chapter <a href="https://www.instagram.com/hfes_uw">Instagram</a>.
+    <p>I do graphic design for fun. The polar bear in space was an illustration I did to promote my team's work when I was employed in Micron Technology.
+    I drew the peapod illustration as a logo for a side project with my PhD advisor (a web application to connect people in conference).
     This personal website is actually me integrating my graphic design knowledge with my newly acquired HTML/CSS skill :)
     I'm really looking forward to update and improve this website as my web design knowledge gets better!
     At this point, I only know how to do HTML, CSS, and a very basic understanding of JavaScript.
     I am trying to pick up React.js, D3.js, CSS animation now!</p>
     <br><br>
         <img src="./assets/art/polaris.png" id="polaris-img" alt="An illustration of a polar bear in an astronaut suit flying in space.">
+        <img src="./assets/art/peapod-mascot-v2.png" id="peapod-img" alt="An illustration of a peapod with three green figures (the peas) in various poses in a pod.">
     </div>
     ` 
 

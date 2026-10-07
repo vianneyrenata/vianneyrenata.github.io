@@ -1,6 +1,20 @@
 [
+        {
+        "title": "AI for people: Designing human-AI systems",
+        "year": "2026",
+        "author": "Lee, J. D., & Renata, V.",
+        "pubtype": "workshop",
+        "doi": ""
+    },
+        {
+        "title": "Preference space as a work domain: A simulation approach to bidirectional human-AI systems",
+        "year": "2026",
+        "author": "Renata, V. & Lee, J. D.",
+        "pubtype": "poster",
+        "doi": ""
+    },
     {
-        "title": "From Chats to App: Desiging AI for People",
+        "title": "From chats to app: Desiging AI for people",
         "year": "2025",
         "author": "Lee, J. D., & Renata, V.",
         "pubtype": "workshop",
