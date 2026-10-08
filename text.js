@@ -86,7 +86,8 @@ function constructService() {
     <p>If you are interested in meeting mechanical keyboard enthusiasts in Madison, WI, don't hesitate to contact me!
     Me and my friends occasionally run informal meetups whenever possible, and am always excited to talk about the hobby.
     We managed to hold an official meetup back in 2023.
-     <a href="https://hoffmanmyster.com/mad-23-07" target="_blank">Click here for more cool photos</a> that one of our attendees took. (thanks a lot, Andrew!)</p>
+     <a href="https://hoffmanmyster.com/mad-23-07" target="_blank">Click here for more cool photos</a> that one of our attendees took. (thanks a lot, Andrew!)
+     Since then, my friends have been continuing the effort.</p>
     </div>
      `
     
@@ -111,7 +112,7 @@ function constructPersonal() {
     I'm really looking forward to update and improve this website as my web design knowledge gets better!
     At this point, I only know how to do HTML, CSS, and a very basic understanding of JavaScript.
     I am trying to pick up React.js, D3.js, CSS animation now!</p>
-    <br><br>
+    <br>
         <img src="./assets/art/polaris.png" id="polaris-img" alt="An illustration of a polar bear in an astronaut suit flying in space.">
         <img src="./assets/art/peapod-mascot-v2.png" id="peapod-img" alt="An illustration of a peapod with three green figures (the peas) in various poses in a pod.">
     </div>
