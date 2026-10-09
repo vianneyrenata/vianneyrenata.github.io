@@ -78,6 +78,10 @@ function constructService() {
     <span style="font-size:13px"> University of Wisconsin–Madison, Madison, WI</span>
     <p>I am active in our student chapter! Let me know if you have any questions about activities in our campus.</p> 
     <br>
+    <strong>Human Factors & Ergonomics Society National Chapter</strong> <br>
+    <p>I am currently serving as the newsletter editor for the Cognitive Engineering and Decision Making Technical Group.
+    If you have any interesting scoop to share (or promote!), do let me know!</p> 
+    <br>
     <div style="border:0.5px solid rgb(122, 167, 120); width: 200px; border-radius:25%"></div>
     <br>
     <strong style="text-decoration: underline">Personal</strong><br>
@@ -86,7 +90,7 @@ function constructService() {
     <p>If you are interested in meeting mechanical keyboard enthusiasts in Madison, WI, don't hesitate to contact me!
     Me and my friends occasionally run informal meetups whenever possible, and am always excited to talk about the hobby.
     We managed to hold an official meetup back in 2023.
-     <a href="https://hoffmanmyster.com/mad-23-07" target="_blank">Click here for more cool photos</a> that one of our attendees took. (thanks a lot, Andrew!)
+     <a href="https://hoffmanmyster.com/mad-23-07" target="_blank">Click here for more cool photos</a> that one of our attendees took (thanks a lot, Andrew!).
      Since then, my friends have been continuing the effort.</p>
     </div>
      `
@@ -101,6 +105,8 @@ function constructPersonal() {
     <strong>I build mechanical keyboards and I am a 40% user!</strong> <br>
     <p>I really enjoy figuring out what is the best and optimal layout for my daily use.
     My daily driver is currently a Corne Zen-ish v3 with lowprokb's Sunset Tactile (40gf), and KLP Lame (Saddled) keycaps.
+    <br>
+    Fun fact: did you know that the QWERTY keyboard layout was designed in Milwaukee, WI?
     <br><br>
     <img src="./assets/photos/cornesunset.png" id="corne-img" alt="A photo of a split mechanical keyboard."></p>
     <br>
