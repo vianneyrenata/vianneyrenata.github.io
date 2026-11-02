@@ -121,6 +121,13 @@ function constructPersonal() {
     <br>
         <img src="./assets/art/polaris.png" id="polaris-img" alt="An illustration of a polar bear in an astronaut suit flying in space.">
         <img src="./assets/art/peapod-mascot-v2.png" id="peapod-img" alt="An illustration of a peapod with three green figures (the peas) in various poses in a pod.">
+    <br>
+    <br>
+    <strong>I like to make things!<strong>
+    <p>My latest adventure is contributing to <a href=www.silkscreenreader.com>Silkscreen</a>, an open-source e-ink reader.
+    With the much help of my partner, we designed and he modelled the CAD case.
+    We implemented features such as modular buttons and buttons blocker to reduce print waste for people who are still exploring their favorite button configurations.</p>
+    <img src="./assets/photos/silkscreen.png" id="silkscreen-img" alt="A photo of an e-ink reader, silkscreen, on a bed of yellow fall leaves.">
     </div>
     ` 
 
