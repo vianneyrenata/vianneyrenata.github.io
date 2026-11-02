@@ -124,7 +124,7 @@ function constructPersonal() {
     <br>
     <br>
     <strong>I like to make things!</strong>
-    <p>My latest adventure is contributing to <a href=www.silkscreenreader.com>Silkscreen</a>, an open-source e-ink reader.
+    <p>My latest adventure is contributing to <a href="https://www.silkscreenreader.com">Silkscreen</a>, an open-source e-ink reader.
     With the much help of my partner, we designed and he modelled the CAD case.
     We implemented features such as modular buttons and buttons blocker to reduce print waste for people who are still exploring their favorite button configurations.</p>
     <img src="./assets/photos/silkscreen.jpg" id="silkscreen-img" alt="A photo of an e-ink reader, silkscreen, on a bed of yellow fall leaves.">
