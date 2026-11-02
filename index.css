@@ -204,6 +204,11 @@ p {
     height: 144px;
     object-fit: cover;
 }
+
+#silkscreen-img {
+    height: 144px;
+    object-fit: cover;
+}
 /* fonts */
 
 /* Hanken Grotesk */
