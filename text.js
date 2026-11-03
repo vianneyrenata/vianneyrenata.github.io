@@ -81,8 +81,8 @@ function constructService() {
     <strong>Human Factors & Ergonomics Society National Chapter</strong> <br>
     <p>I am currently serving as the newsletter editor for the Cognitive Engineering and Decision Making Technical Group.
     If you have any interesting scoop to share (or promote!), do let me know!
-    <br>
-    With my PhD, we created peapod, a web application that connects people in conferences through shared academic and non-academic interests.
+    <br><br>
+    With my PhD advisor, we created peapod, a web application that connects people in conferences through shared academic and non-academic interests.
     176 people signed up in ASPIRE 2026, with 2,000+ interactions logged, and people are still using peapod the weekend after the conference!
     There were a lot of success stories shared by users, which makes me really happy. We are planning to run peapod again for ASPIRE 2027 in Grand Rapids, MI.
     <br>
