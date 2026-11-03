@@ -85,7 +85,10 @@ function constructService() {
     With my PhD, we created peapod, a web application that connects people in conferences through shared academic and non-academic interests.
     176 people signed up in ASPIRE 2026, with 2,000+ interactions logged, and people are still using peapod the weekend after the conference!
     There were a lot of success stories shared by users, which makes me really happy. We are planning to run peapod again for ASPIRE 2027 in Grand Rapids, MI.
-    <img src="./assets/art/peapod-mascot-v2.png" id="peapod-img" alt="An illustration of a peapod with three green figures (the peas) in various poses in a pod."></p>
+    <br>
+    <a href='peapod/index.html'>Click here or the image below for a more detailed description of peapod's design process.
+    <br>
+    <img src="./assets/art/peapod-mascot-v2.png" id="peapod-img" alt="An illustration of a peapod with three green figures (the peas) in various poses in a pod."></a></p>
     
     <br>
     <div style="border:0.5px solid rgb(122, 167, 120); width: 200px; border-radius:25%"></div>
